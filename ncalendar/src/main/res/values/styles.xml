@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="dialogStyle" parent="@android:style/Theme.Dialog">
+        <!--android:windowBackground 设置背景透明-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:background">@android:color/transparent</item>
+        <!--android:windowNoTitle 设置没有标题-->
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+        <item name="android:windowFrame">@null</item>
+        <!--android:windowIsFloating  设置浮在最上面 -->
+        <item name="android:windowIsFloating">true</item>
+        <!--android:windowIsTranslucent 设置窗口是半透明的-->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--android:windowContentOverlay 设置窗口内容叠加 是否有覆盖-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--android:windowAnimationStyle 设置弹出动画-->
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <!--android:backgroundDimEnabled 设置背景是否模糊 -->
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+</resources>
